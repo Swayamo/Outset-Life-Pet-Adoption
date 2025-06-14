@@ -1,4 +1,3 @@
-
 const express = require("express")
 const mongoose =require('mongoose')
 const path = require("path")
@@ -71,6 +70,9 @@ app.post('/login', async (req, res) => {
     }
 });
 
-app.listen(8000 , () => {
-    console.log('port connected');
-})
+const port = process.env.PORT || 8000;
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
