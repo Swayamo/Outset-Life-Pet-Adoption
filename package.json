@@ -1,0 +1,21 @@
+{
+  "name": "your-package-name",
+  "version": "1.0.0",
+  "description": "Your package description",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"nodemon src/index.js\" \"nodemon src/animalabuse.js\"  \"nodemon src/pettraining.js\"  \"nodemon src/HomeVetVisit.js\" \"nodemon src/dogwalking.js\"",
+    "dev": "nodemon HomeVetVisit.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "html": "^1.0.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^8.2.4",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

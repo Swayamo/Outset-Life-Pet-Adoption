@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Training</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jpeg">
+    <link rel="stylesheet" href="./pettraining.css">
+</head>
+<body>
+    <div class="preloader"></div>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><p><b><em>Outset life Pet Adoption</em></b></p></div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Adoptapet.html">Adopt a Pet</a></li>
+                <li><a href="http://localhost:8080/">Vet Consultation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+               
+            </ul>
+        </div>
+    </nav> 
+    <div class="pettrain">
+        <div class="command"><img src="a-dog-trainer-giving-a-hand-command-.webp" alt="command"></div>
+        <div class="training1"></div>
+       
+        <div class="training2"><h1>Dog Training Service at Home</h1><br><h2>One-one Dog Training,</h2><br></div>
+        <button  class="botton3" id="change2" onclick="click3('form22')">Book a Session</button>
+         <div class="why"><h1>Why is Dog Training so important?</h1><br><p>Dog Training is an investment that pays off by making life with your dog easier and more enjoyable.</p><br>
+        <ul>
+            <h3>Management Techniques</h3>
+            <li style="margin-left: 10px;"><br><p style="font-size: 30px; position: absolute; margin-left: -30px; margin-top: -12px;">&#9758;</p>We give you the tools to set your family to be successful.</li>
+            <br><br>
+            <h3>Strengthen Bond</h3>
+            <li style="margin-left: 10px;"><br><p style="font-size: 30px; position: absolute; margin-left: -30px; margin-top: -12px;">&#9758;</p>We help you bridge the gap between you and your dog.</li>
+            <br><br>
+            <h3>Socialization</h3>
+            <li style="margin-left: 10px;"><br><p style="font-size: 30px; position: absolute; margin-left: -30px; margin-top: -12px;">&#9758;</p>Training increases your dog's confidence to explore the surroundings.</li>
+            <br><br>
+            <h3>Mental Stimulation</h3>
+            <li style="margin-left: 10px;"><br><p style="font-size: 30px; position: absolute; margin-left: -30px; margin-top: -12px;">&#9758;</p>Engaging your dog's mind is as important as physical exercise.</li>
+        </ul>
+        </div> 
+        <div id="form22" class="form2">
+             <form action="/pettraining" method="post">
+            <div class="fom2">
+                <div class="kit2"><img src="dog-training-logo.jpg" alt="dog_training"></div>
+                <div class="t10">Course*</div>
+                <div class="t2">starting at</div>
+                <div class="t3">&#8377;999</div>
+                <div class="t4">&#8377;<del>1999</del></div>
+                <div class="line"><hr></div>
+                <div class="i1" id="d1"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="i1" id="d2"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="i1" id="d3"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="i1" id="d4"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="i1" id="d10"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="i1" id="d11"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="i1" id="d12"><img src="tick2.jpg" alt="tick2"></div>
+                <div class="fo1">Loose leash walking</div>
+                <div class="fo1">Polite greeting</div>
+                <div class="fo1">Stand/Stay</div>
+                <div class="fo1">Sit/No Commands</div>
+                <div class="fo1">Diet Chart</div>
+                <div class="fo1">Handshake</div>
+                <div class="fo1">Advanced (2 Tricks)</div>
+                <label for="name2">Name:</label>
+                <input type="text" name="name2" required>
+                <button class="botton" type="submit" id="change" onclick="click2()"><a href="http://localhost:7001/" style="text-decoration: none;color:antiquewhite">Book Course</a></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer4">
+        <div class="f1">
+            <span class="f2">Pet Adoption</span>
+            <span class="f3"><a href="support.html">Support</a></span>
+            
+            <span class="f3"><a href="http://localhost:9000/">Report Animal Abuse</a></span>
+        </div>
+        <div class="f1">
+            <span class="f2">Home Services</span>
+            <span class="f3"><a href="http://localhost:7070/">Dog Walking</a></span>
+            <span class="f3"><a href="http://localhost:7000/">Pet Training</a></span>
+            <span class="f3"><a href="http://localhost:8080/">Home Vet visit</a></span>
+        </div>
+        <div class="f1">
+            <span class="f2">&nbsp;&nbsp;&nbsp;Policy</span>
+            <span class="f3"><a href="PrivacyPolicies.html">Privacy Policy</a></span>
+            <span class="f3"><a href="cancellation.html">Cancellation Policy</a></span>
+            <span class="f3"><a href="terms&condition.html">Terms & Conditions</a></span>
+        </div>
+    </div>
+    <div class="ff">
+       <p>&copy;Uttar Pradesh,India</p>
+    </div>
+    <script>
+        var loader= document.getElementById('preloader');
+
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+        })
+        
+    </script>
+    <script src="./pettraining.js"></script>
+</body>
+</html>
