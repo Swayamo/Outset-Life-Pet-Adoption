@@ -23,6 +23,8 @@ This project is not responsive or production-ready. It's purely experimental and
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+- -Node.js
+- -MongoDb
 
 ## 🌱 Future Plans
 
